@@ -16,7 +16,7 @@ if "username" not in st.session_state:
 if st.session_state.logged_in:
     st.success(f"Logged in as {st.session_state['username']}")
     if st.button("Go to Dashboard"):
-        st.switch_page("pages/1_Dashboard.py")
+        st.switch_page("pages/1_📊_Dashboard.py")
     st.stop()
 
 # Title
